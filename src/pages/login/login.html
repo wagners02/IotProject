@@ -1,0 +1,24 @@
+<ion-header>
+  <!--<ion-navbar>
+    <ion-title>Login</ion-title>
+  </ion-navbar>-->
+</ion-header>
+
+<ion-content padding class="imgFundo">
+  <form (submit)="processForm()" [formGroup]="form">
+    <ion-list>
+
+      <ion-item>
+        <ion-input formControlName="name" type="text" placeholder="Nome"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input formControlName="password" type="password" placeholder="Senha"></ion-input>
+      </ion-item>
+
+    </ion-list>
+    <div padding>
+      <button ion-button block type="submit">Criar Conta</button>
+    </div>
+  </form>
+</ion-content>

@@ -1,0 +1,29 @@
+page-login {
+    .list-md {
+        margin: 16px;
+    }
+    .item-md {
+        padding-left: 0px;
+        background-color: transparent;
+    }
+    .imgFundo {
+
+        background-image: url('../../assets/imgs/30958_adapted_1080x1920.jpg');
+        // background: url('../../img/getstart.png');
+        background-repeat: no-repeat;
+        background-size:cover;
+        }
+        form, input, optgroup, select {
+            margin: 0;
+            font: inherit;
+            //color: black;
+            margin-top: 300px;
+            font-size: 22px;
+            font-weight: 500;
+        }
+        .item-input ion-input, .item-input ion-textarea {
+            color: white;
+            font-size: 10px;
+            font-weight: 200;
+        }
+}

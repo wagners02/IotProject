@@ -1,0 +1,7 @@
+{
+  "name": "Projeto-IOT",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
